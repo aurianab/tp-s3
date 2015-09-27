@@ -162,15 +162,15 @@
 
 				<input type="submit" name="submit" value="Envoyer" id="btn">
 
-				<?php 
+			</form>
+
+			<?php 
 				if ($_POST) {
                     if ($email_envoyer == true) {
-                    echo "<p class='confirm'>Ton inscription a été envoyer. Merci la bleusaille!</p><style>form{display:none;}</style>";  
+                    echo "<p class='confirm'>Ton inscription est envoyée. <br>Merci la bleusaille!</p><style>form{display:none;}</style>";  
                 }
                 };
-                ?>
-
-			</form>
+            ?>
 
 			
 		</div>
